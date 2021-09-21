@@ -20,7 +20,7 @@
     "@types/jquery": "^3.3.29",
     "jquery": "^3.4.1",
     "es6-promise": "^4.2.4",
-    "url-parse": "^1.4.3"
+    "url-parse": "^1.5.3"
   },
   "devDependencies": {
     "typescript": "^3.9.3"
