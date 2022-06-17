@@ -4,7 +4,7 @@
   <artifactId>microprofile-rest-client</artifactId>
   <packaging>jar</packaging>
   <name>microprofile-rest-client</name>
-  <description>This is a sample server Petstore server. For this sample, you can use the api key &#x60;special-key&#x60; to test the authorization filters.</description>
+  <description>This is a sample server Petstore server. For this sample, you can use the api key `special-key` to test the authorization filters.</description>
   <version>1.0.0</version>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
@@ -80,7 +80,7 @@
     <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-rs-extension-providers</artifactId>
-        <version>3.2.6</version>
+        <version>3.4.0</version>
     </dependency>
     <dependency>
       <groupId>javax.json.bind</groupId>
