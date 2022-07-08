@@ -4,7 +4,7 @@ RUN mkdir /app
 WORKDIR /app
 COPY . .
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o openapi
-FROM alpine:3.13
+FROM alpine:3.15
 COPY --from=build-env /app/openapi .
 EXPOSE 8080/tcp
 USER 1001
