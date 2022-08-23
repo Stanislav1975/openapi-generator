@@ -8,21 +8,24 @@
     "publish-gh-pages": "docusaurus deploy",
     "write-translations": "docusaurus write-translations",
     "version": "docusaurus version",
-    "rename-version": "docusaurus rename-version"
+    "rename-version": "docusaurus rename-version",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {},
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.40",
+    "@docusaurus/core": "2.0.0",
     "@docusaurus/plugin-google-analytics": "^2.0.0-alpha.37",
-    "@docusaurus/preset-classic": "2.0.0-alpha.40",
-    "@docusaurus/utils": "2.0.0-alpha.40",
+    "@docusaurus/preset-classic": "2.0.0",
+    "@docusaurus/utils": "2.0.0",
     "classnames": "^2.2.6",
-    "js-yaml": "^3.12.0",
+    "js-yaml": "^3.13.1",
     "lodash.merge": "^4.6.2",
     "lodash.template": "^4.5.0",
     "prism-react-renderer": "^1.0.2",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "@snyk/protect": "latest"
   },
   "browserslist": {
     "production": [
@@ -35,5 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "snyk": true
 }
