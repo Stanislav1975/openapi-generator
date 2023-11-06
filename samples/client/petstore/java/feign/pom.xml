@@ -337,6 +337,6 @@
         <javax-annotation-version>1.3.2</javax-annotation-version>
         <junit-version>5.7.0</junit-version>
         <maven-plugin-version>1.0.0</maven-plugin-version>
-        <scribejava-version>8.0.0</scribejava-version>
+        <scribejava-version>8.1.0</scribejava-version>
     </properties>
 </project>
