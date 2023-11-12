@@ -8,7 +8,9 @@
     "publish-gh-pages": "docusaurus deploy",
     "write-translations": "docusaurus write-translations",
     "version": "docusaurus version",
-    "rename-version": "docusaurus rename-version"
+    "rename-version": "docusaurus rename-version",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {},
   "dependencies": {
@@ -22,7 +24,8 @@
     "lodash.template": "^4.5.0",
     "prism-react-renderer": "^1.0.2",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "@snyk/protect": "latest"
   },
   "browserslist": {
     "production": [
@@ -35,5 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "snyk": true
 }
