@@ -4,7 +4,7 @@
   <artifactId>jaxrs-cxf-jackson-petstore-client</artifactId>
   <packaging>jar</packaging>
   <name>jaxrs-cxf-jackson-petstore-client</name>
-  <description>This is a sample server Petstore server. For this sample, you can use the api key &#x60;special-key&#x60; to test the authorization filters.</description>
+  <description>This is a sample server Petstore server. For this sample, you can use the api key `special-key` to test the authorization filters.</description>
   <version>1.0.0</version>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
@@ -171,7 +171,7 @@
     <swagger-core-version>1.5.18</swagger-core-version>
     <jetty-version>9.2.9.v20150224</jetty-version>
     <junit-version>4.13.1</junit-version>
-    <logback-version>1.2.0</logback-version>
+    <logback-version>1.4.12</logback-version>
     <servlet-api-version>2.5</servlet-api-version>
     <cxf-version>3.3.0</cxf-version>
     <jackson-jaxrs-version>2.9.9</jackson-jaxrs-version>
