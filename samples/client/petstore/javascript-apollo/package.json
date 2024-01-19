@@ -11,7 +11,7 @@
     "fs": false
   },
   "dependencies": {
-    "apollo-datasource-rest": "^0.7.0"
+    "apollo-datasource-rest": "^0.14.0"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
