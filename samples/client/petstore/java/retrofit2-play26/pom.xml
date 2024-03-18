@@ -311,7 +311,7 @@
         <jackson-version>2.12.1</jackson-version>
         <play-version>2.6.7</play-version>
         <jackson-databind-nullable-version>0.2.1</jackson-databind-nullable-version>
-        <retrofit-version>2.5.0</retrofit-version>
+        <retrofit-version>2.10.0</retrofit-version>
         <threetenbp-version>1.4.0</threetenbp-version>
         <javax-annotation-version>1.3.2</javax-annotation-version>
         <oltu-version>1.0.1</oltu-version>
