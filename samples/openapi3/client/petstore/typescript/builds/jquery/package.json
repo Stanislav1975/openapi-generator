@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@types/jquery": "^3.3.29",
-    "jquery": "^3.4.1",
+    "jquery": "^3.7.1",
     "es6-promise": "^4.2.4",
     "url-parse": "^1.4.3"
   },
