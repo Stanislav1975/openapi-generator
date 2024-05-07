@@ -17,7 +17,7 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "@types/jquery": "^3.3.29",
+    "@types/jquery": "^3.5.29",
     "jquery": "^3.4.1",
     "es6-promise": "^4.2.4",
     "url-parse": "^1.4.3"
