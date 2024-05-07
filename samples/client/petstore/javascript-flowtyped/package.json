@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "portable-fetch": "^3.0.0",
-    "node-fetch": ">=2.6.1"
+    "node-fetch": ">=2.7.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
