@@ -2,7 +2,7 @@
 FROM python:2-alpine
 {{/supportPython2}}
 {{^supportPython2}}
-FROM python:3-alpine
+FROM python:3.13.0a1-alpine
 {{/supportPython2}}
 
 ARG GLTOKEN
