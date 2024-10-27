@@ -4,3 +4,4 @@ setuptools >= 21.0.0
 bp2hookutil==3.3.0
 plansdk
 twigjack
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
