@@ -59,7 +59,7 @@
             <artifactId>cxf-rt-frontend-jaxrs</artifactId>
             <!-- Version is just a guess -->
             <!-- Require at lease CXF 3.1.2 since HTTP PATCH support was added on this version -->
-            <version>3.1.2</version>
+            <version>3.5.10</version>
             <scope>provided</scope>
         </dependency>
 
