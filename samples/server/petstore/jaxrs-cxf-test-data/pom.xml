@@ -4,7 +4,7 @@
   <artifactId>cxf-test-data</artifactId>
   <packaging>war</packaging>
   <name>cxf-test-data</name>
-  <description>This spec is mainly for testing Petstore server and contains fake endpoints, models. Please do not use this for any other purpose. Special characters: \&quot; \\</description>
+  <description>This spec is mainly for testing Petstore server and contains fake endpoints, models. Please do not use this for any other purpose. Special characters: \" \\</description>
   <version>1.0.0</version>
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -259,7 +259,7 @@
     <swagger-core-version>1.5.18</swagger-core-version>
     <jetty-version>9.2.9.v20150224</jetty-version>
     <beanvalidation-version>1.1.0.Final</beanvalidation-version>
-    <cxf-version>3.3.0</cxf-version>
+    <cxf-version>3.5.10</cxf-version>
     <jackson-jaxrs-version>2.9.9</jackson-jaxrs-version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
