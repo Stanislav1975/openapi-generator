@@ -19,7 +19,7 @@
       <springfox-swagger2>2.6.0</springfox-swagger2>
       <springfox-swagger-ui>2.6.0</springfox-swagger-ui>
       <slf4j-api>1.7.25</slf4j-api>
-      <logstash-logback-encoder>4.11</logstash-logback-encoder>
+      <logstash-logback-encoder>8.1</logstash-logback-encoder>
       <logback-core>1.2.3</logback-core>
       <logback-classic>1.2.3</logback-classic>
       <gatling.version>2.3.0</gatling.version>
@@ -32,7 +32,7 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-parent</artifactId>
       <version>1.5.6.RELEASE</version>
-      <relativePath />
+      <relativePath/>
       <!-- lookup parent from repository -->
    </parent>
    <repositories>
@@ -402,7 +402,7 @@
                               </goals>
                            </pluginExecutionFilter>
                            <action>
-                              <ignore />
+                              <ignore/>
                            </action>
                         </pluginExecution>
                      </pluginExecutions>
