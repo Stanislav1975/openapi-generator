@@ -4,7 +4,7 @@
   <artifactId>openapi-jaxrs-client</artifactId>
   <packaging>jar</packaging>
   <name>openapi-jaxrs-client</name>
-  <description>This spec is mainly for testing Petstore server and contains fake endpoints, models. Please do not use this for any other purpose. Special characters: \&quot; \\</description>
+  <description>This spec is mainly for testing Petstore server and contains fake endpoints, models. Please do not use this for any other purpose. Special characters: \" \\</description>
   <version>1.0.0</version>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
@@ -181,7 +181,7 @@
     <cxf-version>3.3.0</cxf-version>
     <jackson-jaxrs-version>2.9.9</jackson-jaxrs-version>
     <javax-annotation-version>1.3.2</javax-annotation-version>
-    <jackson-databind-nullable-version>0.2.1</jackson-databind-nullable-version>
+    <jackson-databind-nullable-version>0.2.7</jackson-databind-nullable-version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 </project>
